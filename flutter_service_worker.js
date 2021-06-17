@@ -4,21 +4,22 @@ const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "version.json": "8780010a5bc815e863dda1aec942e9f9",
-"index.html": "4707c9218fb498c2a91de23023f5181a",
-"/": "4707c9218fb498c2a91de23023f5181a",
-"main.dart.js": "7d6ad5440d932d4d66a7ea9421d776cf",
+"index.html": "6022fa106bd6bfdc2c3eca560d054eb1",
+"/": "6022fa106bd6bfdc2c3eca560d054eb1",
+"main.dart.js": "8ffee650d896708da4d2d37e3d58dc95",
 "icon-192.png": "d5be30d418191e960308ca7701a5c4b8",
 "favicon.png": "99f79cb1ab22958c34d02a2206a9c2cd",
 "manifest.json": "e4f6c0feb496a82816bda9ab8ca97373",
-"assets/AssetManifest.json": "6751ac94e4d3b6d5b45f5a73672561c8",
-"assets/NOTICES": "749f47a9b5dcc581e06fc909a0a01696",
+"assets/AssetManifest.json": "e311590ced991dda3c09c48a5847bea3",
+"assets/NOTICES": "3f767e8eff603f905f612a7495f767f7",
 "assets/FontManifest.json": "7b2a36307916a9721811788013e65289",
-"assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac",
+"assets/fonts/MaterialIcons-Regular.otf": "4e6447691c9509f7acdbf8a931a85ca1",
 "assets/assets/resume.svg": "46677fc92c26b05ef05f6f57ee6cbf2f",
 "assets/assets/swirls1.svg": "7b2b0976d9656ce4badcb72c1d1eb9a2",
 "assets/assets/swirls3.svg": "0691e7353e1767ce6b2f8ca43a80fec9",
 "assets/assets/swirls2.svg": "5b91d6eef2a3c06a44b2ffe870538535",
 "assets/assets/open-sans.ttf": "883e9763b74b94e2b8afa0bc8a429936",
+"assets/assets/document.svg": "c0d272e3925fb4d1e2fa5828863da184",
 "assets/assets/medail.svg": "bb392b5d8b6f0881891c5fcb1efd56db",
 "assets/assets/garland.svg": "6e75c8b61d9ab548483d72a5a4a0560a",
 "assets/assets/roboto1.ttf": "96e5fbad8c2f5b81165ede8b2f08a14b",
@@ -26,7 +27,7 @@ const RESOURCES = {
 "assets/assets/roboto2.ttf": "74bc6165dc68714ccaa88f5c64656b1c",
 "assets/assets/profile.jpg": "1e4cf308782c44346db361e95c003a6c",
 "assets/assets/calendar.svg": "44dc5e7c4290b9312b91f0cb3377bd2d",
-"assets/assets/material.ttf": "8ef52a15e44481b41e7db3c7eaf9bb83",
+"assets/assets/material.ttf": "548cdd0e4a7d21c2a9c3bc8580254239",
 "assets/assets/invoice.svg": "ed6bd474d30a8d750aa924a78918b1ac",
 "assets/assets/swirls.svg": "ebd60d6baf67414628147028ea5382d0",
 "assets/assets/logo.svg": "50ac89287e374ce31bacbc5baede9bb3",
@@ -49,7 +50,7 @@ self.addEventListener("install", (event) => {
   return event.waitUntil(
     caches.open(TEMP).then((cache) => {
       return cache.addAll(
-        CORE.map((value) => new Request(value + '?revision=' + RESOURCES[value], {'cache': 'reload'})));
+        CORE.map((value) => new Request(value, {'cache': 'reload'})));
     })
   );
 });
