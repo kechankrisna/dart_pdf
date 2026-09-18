@@ -21,7 +21,7 @@ import 'dart:typed_data';
 import 'package:flutter/foundation.dart'
     show InformationCollector, StringProperty, kIsWeb;
 import 'package:flutter/material.dart';
-import 'package:pdf/pdf.dart';
+import 'package:pdf_ce/pdf.dart';
 
 import '../platform_js.dart' if (dart.library.io) '../platform_os.dart';
 import '../printing.dart';

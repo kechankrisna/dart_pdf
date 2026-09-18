@@ -4,7 +4,7 @@
 
 list(APPEND FLUTTER_PLUGIN_LIST
   open_file_linux
-  printing
+  printing_ce
   url_launcher_linux
 )
 

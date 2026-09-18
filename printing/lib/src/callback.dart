@@ -17,7 +17,7 @@
 import 'dart:async';
 import 'dart:typed_data';
 
-import 'package:pdf/pdf.dart';
+import 'package:pdf_ce/pdf.dart';
 
 /// Callback used to generate the Pdf document dynamically when the user
 /// changes the page settings: size and margins

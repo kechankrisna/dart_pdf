@@ -4,9 +4,9 @@ import 'dart:convert';
 import 'dart:typed_data';
 
 import 'package:http/http.dart' as http;
-import 'package:pdf/pdf.dart';
-import 'package:pdf/widgets.dart' as pw;
-import 'package:printing/printing.dart';
+import 'package:pdf_ce/pdf.dart';
+import 'package:pdf_ce/widgets.dart' as pw;
+import 'package:printing_ce/printing.dart';
 
 import '../data.dart';
 

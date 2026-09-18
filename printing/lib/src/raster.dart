@@ -19,7 +19,7 @@ import 'dart:typed_data';
 import 'dart:ui' as ui;
 
 import 'package:flutter/painting.dart';
-import 'package:pdf/pdf.dart';
+import 'package:pdf_ce/pdf.dart';
 
 /// Represents a bitmap image
 class PdfRaster extends PdfRasterBase {

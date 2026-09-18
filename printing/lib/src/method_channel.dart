@@ -26,7 +26,7 @@ import 'package:flutter/foundation.dart'
         StringProperty;
 import 'package:flutter/rendering.dart' show Rect;
 import 'package:flutter/services.dart' show MethodCall, MethodChannel;
-import 'package:pdf/pdf.dart';
+import 'package:pdf_ce/pdf.dart';
 
 import 'callback.dart';
 import 'interface.dart';

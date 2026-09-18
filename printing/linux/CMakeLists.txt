@@ -41,7 +41,7 @@ download_project(PROJ
 
 # This value is used when generating builds using this plugin, so it must not be
 # changed
-set(PLUGIN_NAME "printing_plugin")
+set(PLUGIN_NAME "printing_ce_plugin")
 
 include(${pdfium_SOURCE_DIR}/PDFiumConfig.cmake)
 
@@ -54,7 +54,7 @@ pkg_check_modules(GTKUnixPrint
 
 add_library(${PLUGIN_NAME} SHARED
             "printing_plugin.cc"
-            "include/printing/printing_plugin.h"
+            "include/printing_ce/printing_plugin.h"
             "print_job.cc"
             "print_job.h")
 
@@ -77,4 +77,4 @@ set_target_properties(${PLUGIN_NAME}
                                  "$ORIGIN:${PDFium_lib_path}")
 
 # List of absolute paths to libraries that should be bundled with the plugin
-set(printing_bundled_libraries "${PDFium_LIBRARY}" PARENT_SCOPE)
+set(printing_ce_bundled_libraries "${PDFium_LIBRARY}" PARENT_SCOPE)

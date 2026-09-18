@@ -18,8 +18,8 @@ import 'dart:async';
 
 import 'package:flutter/rendering.dart' as rdr;
 import 'package:flutter/services.dart';
-import 'package:pdf/pdf.dart';
-import 'package:pdf/widgets.dart';
+import 'package:pdf_ce/pdf.dart';
+import 'package:pdf_ce/widgets.dart';
 
 import 'cache.dart';
 

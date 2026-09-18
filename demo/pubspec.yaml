@@ -13,8 +13,8 @@ dependencies:
   intl: ^0.20.2
   open_file: ^4.0.0
   path_provider: ^2.0.12
-  pdf:
-  printing:
+  pdf_ce:
+  printing_ce:
   url_launcher: ^6.1.8
   vector_math: ^2.1.4
 
@@ -26,9 +26,11 @@ dev_dependencies:
   test:
 
 dependency_overrides:
-  pdf:
+  pdf_ce:
     path: ../pdf
-  printing:
+  pdf_widget_wrapper:
+    path: ../widget_wrapper
+  printing_ce:
     path: ../printing
 
 flutter:

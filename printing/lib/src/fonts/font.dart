@@ -15,7 +15,7 @@
  */
 
 import 'package:flutter/services.dart';
-import 'package:pdf/widgets.dart';
+import 'package:pdf_ce/widgets.dart';
 
 import '../cache.dart';
 import 'manifest.dart' as manifest;

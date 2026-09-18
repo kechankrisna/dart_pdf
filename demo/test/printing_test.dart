@@ -1,7 +1,7 @@
 import 'dart:io';
 
 import 'package:flutter_test/flutter_test.dart';
-import 'package:pdf/pdf.dart';
+import 'package:pdf_ce/pdf.dart';
 import 'package:printing_demo/data.dart';
 import 'package:printing_demo/examples/document.dart';
 

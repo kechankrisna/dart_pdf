@@ -18,9 +18,9 @@ import 'dart:typed_data';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
-import 'package:pdf/pdf.dart';
-import 'package:pdf/widgets.dart' as pw;
-import 'package:printing/printing.dart';
+import 'package:pdf_ce/pdf.dart';
+import 'package:pdf_ce/widgets.dart' as pw;
+import 'package:printing_ce/printing.dart';
 import 'package:vector_math/vector_math_64.dart';
 
 import '../data.dart';

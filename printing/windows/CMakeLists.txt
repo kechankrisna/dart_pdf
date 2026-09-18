@@ -41,7 +41,7 @@ download_project(PROJ
 
 # This value is used when generating builds using this plugin, so it must not be
 # changed
-set(PLUGIN_NAME "printing_plugin")
+set(PLUGIN_NAME "printing_ce_plugin")
 
 include(${pdfium_SOURCE_DIR}/PDFiumConfig.cmake)
 
@@ -49,7 +49,7 @@ add_library(${PLUGIN_NAME} SHARED
             "printing.cpp"
             "printing.h"
             "printing_plugin.cpp"
-            "include/printing/printing_plugin.h"
+            "include/printing_ce/printing_plugin.h"
             "print_job.cpp"
             "print_job.h")
 
@@ -62,4 +62,4 @@ target_link_libraries(${PLUGIN_NAME}
                       PRIVATE pdfium flutter flutter_wrapper_plugin)
 
 # List of absolute paths to libraries that should be bundled with the plugin
-set(printing_bundled_libraries "${PDFium_LIBRARY}" PARENT_SCOPE)
+set(printing_ce_bundled_libraries "${PDFium_LIBRARY}" PARENT_SCOPE)

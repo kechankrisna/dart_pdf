@@ -23,7 +23,7 @@ import 'dart:ui';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_web_plugins/flutter_web_plugins.dart';
-import 'package:pdf/pdf.dart';
+import 'package:pdf_ce/pdf.dart';
 import 'package:web/web.dart' as web;
 
 import 'src/callback.dart';

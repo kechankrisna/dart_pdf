@@ -16,7 +16,7 @@
 
 // Generated file
 
-import 'package:pdf/widgets.dart';
+import 'package:pdf_ce/widgets.dart';
 
 import 'font.dart';
 

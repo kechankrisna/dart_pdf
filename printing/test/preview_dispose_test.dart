@@ -17,7 +17,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:printing/printing.dart';
+import 'package:printing_ce/printing.dart';
 
 const _channel = MethodChannel('net.nfet.printing');
 const _codec = StandardMethodCodec();

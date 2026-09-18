@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-import 'package:pdf/widgets.dart';
+import 'package:pdf_ce/widgets.dart';
 
 import 'src/fonts/gfonts.dart';
 

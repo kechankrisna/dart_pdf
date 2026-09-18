@@ -15,7 +15,7 @@
  */
 
 import 'package:flutter/material.dart';
-import 'package:pdf/pdf.dart';
+import 'package:pdf_ce/pdf.dart';
 
 import '../callback.dart';
 

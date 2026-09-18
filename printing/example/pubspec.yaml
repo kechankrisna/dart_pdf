@@ -9,15 +9,17 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  pdf:
-  printing:
+  pdf_ce:
+  printing_ce:
   vector_math: ^2.1.0
   xml: ">=7.0.1 <8.0.0"
 
 dependency_overrides:
-  pdf:
+  pdf_ce:
     path: ../../pdf
-  printing:
+  pdf_widget_wrapper:
+    path: ../../widget_wrapper
+  printing_ce:
     path: ../
 
 dev_dependencies:

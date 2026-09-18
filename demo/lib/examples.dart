@@ -1,7 +1,7 @@
 import 'dart:async';
 import 'dart:typed_data';
 
-import 'package:pdf/pdf.dart';
+import 'package:pdf_ce/pdf.dart';
 
 import 'data.dart';
 import 'examples/calendar.dart';

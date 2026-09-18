@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-#include "include/printing/printing_plugin.h"
+#include "include/printing_ce/printing_plugin.h"
 
 // This must be included before many other Windows headers.
 #include <windows.h>

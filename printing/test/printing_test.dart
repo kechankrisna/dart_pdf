@@ -19,10 +19,10 @@ import 'dart:typed_data';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mockito/mockito.dart';
-import 'package:pdf/pdf.dart';
+import 'package:pdf_ce/pdf.dart';
 import 'package:plugin_platform_interface/plugin_platform_interface.dart';
-import 'package:printing/printing.dart';
-import 'package:printing/src/interface.dart';
+import 'package:printing_ce/printing.dart';
+import 'package:printing_ce/src/interface.dart';
 
 void main() {
   setUp(() {

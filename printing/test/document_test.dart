@@ -19,8 +19,8 @@ import 'dart:io';
 import 'package:flutter/services.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:pdf/widgets.dart' as pw;
-import 'package:printing/printing.dart';
+import 'package:pdf_ce/widgets.dart' as pw;
+import 'package:printing_ce/printing.dart';
 
 late pw.Document doc;
 pw.Font? ttf;

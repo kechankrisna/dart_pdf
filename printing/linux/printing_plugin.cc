@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-#include "include/printing/printing_plugin.h"
+#include "include/printing_ce/printing_plugin.h"
 
 #include <cstring>
 #include <memory>
