@@ -1,5 +1,11 @@
 # Changelog
 
+## 5.16.0
+
+- Rename package to `printing_ce` (fork published under a new identity; `printing` was already taken with a name clash on the dependency graph)
+- Depend on `pdf_ce` and `pdf_widget_wrapper_ce` instead of `pdf` and `pdf_widget_wrapper`
+- Fix Linux/Windows native plugin registration after the rename: move the native header to `include/printing_ce/`, and rename the CMake `PLUGIN_NAME` target and `*_bundled_libraries` scope variable to match
+
 ## 5.15.2
 
 - Fix iOS use-after-free crash in `CGPDFDocumentGetNumberOfPages`: UIKit reads the PDF document from a background page-count thread while dynamic layout replaces it on the main thread; document access is now lock-guarded
