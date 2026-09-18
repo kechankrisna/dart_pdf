@@ -16,8 +16,8 @@
 
 import 'dart:io';
 
-import 'package:pdf/pdf.dart';
-import 'package:pdf/widgets.dart' as pw;
+import 'package:pdf_ce/pdf.dart';
+import 'package:pdf_ce/widgets.dart' as pw;
 import 'package:test/test.dart';
 
 /// Builds a one-page document with [text] in an embedded TrueType font and

@@ -16,7 +16,7 @@
 
 import 'dart:io';
 
-import 'package:pdf/pdf.dart';
+import 'package:pdf_ce/pdf.dart';
 import 'package:test/test.dart';
 
 void printText(

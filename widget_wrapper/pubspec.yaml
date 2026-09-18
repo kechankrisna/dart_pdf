@@ -7,20 +7,20 @@ issue_tracker: https://github.com/DavBfr/dart_pdf/issues
 version: 1.0.4
 
 environment:
-  sdk: ">=2.18.0 <4.0.0"
+  sdk: ">=3.12.0 <4.0.0"
   flutter: ">=3.20.0-7.0.pre.48"
 
 dependencies:
   flutter:
     sdk: flutter
-  pdf: ^3.13.0
+  pdf_ce: ^3.13.0
 
 dependency_overrides:
-  pdf:
+  pdf_ce:
     path: ../pdf
 
 dev_dependencies:
-  flutter_lints: ^5.0.0
+  flutter_lints: ^6.0.0
   flutter_test:
     sdk: flutter
 

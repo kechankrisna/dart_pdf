@@ -16,8 +16,8 @@
 
 import 'dart:io';
 
-import 'package:pdf/pdf.dart';
-import 'package:pdf/src/pdf/font/ttf_writer.dart';
+import 'package:pdf_ce/pdf.dart';
+import 'package:pdf_ce/src/pdf/font/ttf_writer.dart';
 import 'package:test/test.dart';
 
 void printText(

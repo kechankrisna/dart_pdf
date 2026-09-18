@@ -16,8 +16,8 @@
 
 import 'dart:io';
 
-import 'package:pdf/src/pdf/font/bidi_utils.dart' as bidi;
-import 'package:pdf/widgets.dart';
+import 'package:pdf_ce/src/pdf/font/bidi_utils.dart' as bidi;
+import 'package:pdf_ce/widgets.dart';
 import 'package:test/test.dart';
 
 import 'utils.dart';

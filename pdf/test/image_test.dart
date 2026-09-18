@@ -17,9 +17,9 @@
 import 'dart:typed_data';
 
 import 'package:image/image.dart' as im;
-import 'package:pdf/pdf.dart';
-import 'package:pdf/src/priv.dart';
-import 'package:pdf/widgets.dart'
+import 'package:pdf_ce/pdf.dart';
+import 'package:pdf_ce/src/priv.dart';
+import 'package:pdf_ce/widgets.dart'
     show Context, ImageImage, ImageProvider, MemoryImage;
 import 'package:test/test.dart';
 

@@ -12,9 +12,9 @@ import 'dart:convert';
 import 'dart:typed_data';
 
 import 'package:image/image.dart' as image;
-import 'package:pdf/pdf.dart';
-import 'package:pdf/src/pdf/format/object_base.dart' show PdfObjectBase;
-import 'package:pdf/widgets.dart' as pw;
+import 'package:pdf_ce/pdf.dart';
+import 'package:pdf_ce/src/pdf/format/object_base.dart' show PdfObjectBase;
+import 'package:pdf_ce/widgets.dart' as pw;
 import 'package:test/test.dart';
 
 void main() {

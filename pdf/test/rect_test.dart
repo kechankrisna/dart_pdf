@@ -14,8 +14,8 @@
  * limitations under the License.
  */
 
-import 'package:pdf/src/pdf/point.dart';
-import 'package:pdf/src/pdf/rect.dart';
+import 'package:pdf_ce/src/pdf/point.dart';
+import 'package:pdf_ce/src/pdf/rect.dart';
 import 'package:test/test.dart';
 
 void main() {

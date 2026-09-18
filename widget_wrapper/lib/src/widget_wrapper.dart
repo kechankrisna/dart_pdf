@@ -21,8 +21,8 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter/widgets.dart';
-import 'package:pdf/pdf.dart';
-import 'package:pdf/widgets.dart' as pw;
+import 'package:pdf_ce/pdf.dart';
+import 'package:pdf_ce/widgets.dart' as pw;
 
 /// ImageProvider that draws a Flutter Widget on a PDF document
 class WidgetWrapper extends pw.ImageProvider {
