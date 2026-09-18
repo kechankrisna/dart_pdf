@@ -17,7 +17,7 @@ dependencies:
 dependency_overrides:
   pdf_ce:
     path: ../../pdf
-  pdf_widget_wrapper:
+  pdf_widget_wrapper_ce:
     path: ../../widget_wrapper
   printing_ce:
     path: ../

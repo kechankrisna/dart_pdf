@@ -18,7 +18,7 @@ import 'package:pdf_ce/widgets.dart';
 
 import 'src/fonts/gfonts.dart';
 
-export 'package:pdf_widget_wrapper/pdf_widget_wrapper.dart';
+export 'package:pdf_widget_wrapper_ce/pdf_widget_wrapper.dart';
 
 export 'src/asset_utils.dart';
 export 'src/cache.dart';

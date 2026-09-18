@@ -1,10 +1,10 @@
-name: pdf_widget_wrapper
+name: pdf_widget_wrapper_ce
 description: >
   Plugin that allows embedding of Flutter Widgets into a PDF document.
-homepage: https://github.com/DavBfr/dart_pdf/tree/master/widget_wrapper
-repository: https://github.com/DavBfr/dart_pdf
-issue_tracker: https://github.com/DavBfr/dart_pdf/issues
-version: 1.0.4
+homepage: https://github.com/kechankrisna/dart_pdf/tree/master/widget_wrapper
+repository: https://github.com/kechankrisna/dart_pdf
+issue_tracker: https://github.com/kechankrisna/dart_pdf/issues
+version: 1.1.0
 
 environment:
   sdk: ">=3.12.0 <4.0.0"
