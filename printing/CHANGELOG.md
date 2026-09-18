@@ -1,5 +1,9 @@
 # Changelog
 
+## 5.16.1
+
+- Fix `pod install` failing with "No podspec found for `printing_ce`" on iOS/macOS: the native podspecs were still named `printing.podspec` with `s.name = 'printing'` from before the 5.16.0 rename, so CocoaPods' path source (which looks up the podspec by the pod's declared name) couldn't find them. Renamed both to `printing_ce.podspec` and updated `s.name` to match.
+
 ## 5.16.0
 
 - Rename package to `printing_ce` (fork published under a new identity; `printing` was already taken with a name clash on the dependency graph)
