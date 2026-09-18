@@ -1,5 +1,9 @@
 # Changelog
 
+## 5.16.2
+
+- Fix Swift Package Manager (SPM) integration on iOS/macOS: the native `Package.swift` manifests still lived under `ios/printing/` and `macos/printing/` from before the 5.16.0 rename, but Flutter's tooling only discovers a plugin's Swift package at `<platform>/<pubspec-name>/Package.swift` (i.e. `ios/printing_ce/`), so the manifests were silently ignored and builds always fell back to CocoaPods. The manifests also declared a nonexistent local dependency (`../FlutterFramework`) and used the pre-rename product/target name `printing`, which would have failed SPM resolution even if the directory had been found. Renamed `ios/printing` → `ios/printing_ce` and `macos/printing` → `macos/printing_ce` (including the `Sources/printing` subfolder), removed the phantom dependency, and renamed the product to `printing-ce` (hyphenated, per SPM's `CFBundleIdentifier` rules) so it matches what Flutter's generated `FlutterGeneratedPluginSwiftPackage` expects. Updated both podspecs' `source_files` to match. Verified with real `flutter build ios`/`flutter build macos` runs against both the SPM and CocoaPods resolution paths.
+
 ## 5.16.1
 
 - Fix `pod install` failing with "No podspec found for `printing_ce`" on iOS/macOS: the native podspecs were still named `printing.podspec` with `s.name = 'printing'` from before the 5.16.0 rename, so CocoaPods' path source (which looks up the podspec by the pod's declared name) couldn't find them. Renamed both to `printing_ce.podspec` and updated `s.name` to match.
