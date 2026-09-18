@@ -17,7 +17,7 @@
 import 'dart:convert';
 import 'dart:typed_data';
 
-import 'package:barcode/barcode.dart';
+import 'package:barcode_plus/barcode_plus.dart';
 
 import '../../pdf.dart';
 import 'basic.dart';
