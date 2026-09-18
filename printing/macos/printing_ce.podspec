@@ -2,7 +2,7 @@
 # To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
 #
 Pod::Spec.new do |s|
-  s.name             = 'printing'
+  s.name             = 'printing_ce'
   s.version          = '1.0.0'
   s.summary          = 'Flutter printing plugin'
   s.description      = 'Plugin that allows Flutter apps to generate and print documents to macOS compatible printers'
