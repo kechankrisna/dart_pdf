@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.13.2
+
+- Audit for Swift Package Manager (SPM) support alongside the `printing_ce` SPM fix: `pdf_ce` is a pure Dart package with no `ios`/`macos` native platform code, so it has nothing to migrate and needs no `Package.swift`. No functional changes.
+
 ## 3.13.1
 
 - Add output-stream serialization for memory-bounded PDF generation.
