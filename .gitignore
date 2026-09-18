@@ -54,6 +54,8 @@ cache_*
 .vscode
 package.json
 
+.fvm/
+
 GeneratedPluginRegistrant.*
 test/social_preview.png
 test/fonts.json
